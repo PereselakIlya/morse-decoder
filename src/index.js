@@ -56,7 +56,7 @@ function decode(expr) {
  }
  var outbottomslash=outStr.replaceAll(/,,,/g," ");
  var outwithoutzap=outbottomslash.replaceAll(/,/g,"");
-return outnulls;
+return outwithoutzap;
 }
 
 module.exports = {
